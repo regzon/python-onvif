@@ -5,7 +5,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 version_path = os.path.join(here, 'onvif/version.txt')
 version = open(version_path).read().strip()
 
-requires = [ 'suds >= 0.4', 'suds-passworddigest' ]
+requires = []
 
 CLASSIFIERS = [
     'Development Status :: 3 - Alpha',
